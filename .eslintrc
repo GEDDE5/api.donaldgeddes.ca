@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb-base",
+  ],
+  "env": {
+      "browser": false,
+      "node": true
+  },
+  "parserOptions": {
+      "ecmaVersion": 6,
+  },
+  "rules": {
+      "arrow-parens": 0,
+      "no-bitwise": 0,
+      "no-console": 0,
+      "no-underscore-dangle": 0,
+      "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
+      "no-unused-vars": 1,
+      "semi": 0
+  }
+}
